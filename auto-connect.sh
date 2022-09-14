@@ -70,8 +70,6 @@ wg-quick down pia
 
 dnsServer=$(echo "$wireguard_json" | jq -r '.dns_servers[0]')
 dnsSettingForVPN="DNS = $dnsServer"
-# put this line after 'PrivateKey = ' in the config below to enable pia dns:
-#$dnsSettingForVPN
 
 mkdir -p /etc/wireguard
 
