@@ -25,7 +25,7 @@ I am running this in a Debian 11 LXC container on top of Proxmox 7.2-7. The comm
 
 ### Dependencies
 
-The requirements for this are exactly the same as PIA's official scripts. So that I'm not repeating them, you can see them [here](https://github.com/pia-foss/manual-connections). This script, unlike the official ones, do not check for dependencies and will break if something is wrong.
+The requirements for this are exactly the same as PIA's official scripts. So that I'm not repeating them, you can see them [here](https://github.com/pia-foss/manual-connections#dependencies). This script, unlike the official ones, do not check for dependencies and will break if something is wrong.
 
 ### Steps
 
